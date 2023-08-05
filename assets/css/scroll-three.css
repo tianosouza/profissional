@@ -1,0 +1,115 @@
+.scroll-three {
+    width: 1440px;
+    height: 745px;
+}
+.scroll-three-text h1{
+    width: 418px;
+    height: 138px;
+    position: relative;
+    left: 511px;
+    top: 65px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--text-primary, #2E323B);    
+}
+.scroll-three-text p {
+    width: 360px;
+    height: 57px;
+    position: relative;
+    left: 540px;
+    top: 80px;
+    text-align: center;
+    color: var(--dark-primary, #61646B);
+    font-size: 18px;
+    font-weight: 400;
+}
+.card-scroll-three {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 117px;
+    gap: 20px;
+}
+.cards {
+    width: 360px;
+    height: 360px;
+    border-radius: 20px;
+    background: var(--white-primary, #FFF);
+    box-shadow: 0px 10px 50px 5px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+      
+}
+.card-back1 {
+    width: 100px;
+    height: 100px;
+    background: #50CB93;
+    box-shadow: 0px 26px 50px 0px rgba(80, 203, 147, 0.25);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.card-back2 {
+    width: 100px;
+    height: 100px;
+    background: #7D83FC;
+    box-shadow: 0px 26px 50px 0px rgba(125, 131, 252, 0.25);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.card-back3 {
+    width: 100px;
+    height: 100px;
+    background: #FF3D68;
+    box-shadow: 0px 26px 50px 0px rgba(255, 61, 104, 0.25);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.card-text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 30px;
+    top: 50px;
+}
+.card-text h4 {
+    color: var(--text-primary, #2E323B);
+    font-size: 24px;
+    font-weight: 600;
+}
+.card-text p {
+    color: var(--dark-primary, #61646B);
+    font-size: 18px;
+    font-weight: 400;
+    width: 300px;
+    height: 82px;
+}
+.span p{
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: var(--button-primary, #3E3FD8);
+    font-size: 18px;
+    font-weight: 600;   
+}
+.span p span {
+    font-size: 18px;
+    font-weight: 900;
+    position: relative;
+    left: 10px;
+}
