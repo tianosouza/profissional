@@ -3,6 +3,9 @@
 @import url(/assets/css/scroll-three.css);
 @import url(/assets/css/scroll-four.css);
 @import url(/assets/css/scroll-five.css);
+@import url(/assets/css/scroll-six.css);
+@import url(/assets/css/scroll-seven.css);
+@import url(/assets/css/scroll-end.css);
 :root {
     --primary-color: #61646B;
     --text-primary: #2E323B;
@@ -12,9 +15,9 @@
 
 body {
     max-width: 1440px;
-    height: 8188px;
+    height: 4500px;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y:initial;
 }
 .scroll-one {
     width: 1440px;

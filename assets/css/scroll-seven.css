@@ -1,0 +1,63 @@
+.scroll-seven {
+    width: 1440px;
+    height: 465px;
+}
+.scroll-seven h6 {
+    color: var(--button-primary, #3E3FD8);
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    text-align: center;
+    top: 80px;
+}
+.scroll-seven h1 {
+    color: #2E323B;
+    font-size: 48px;
+    font-weight: 700;
+    position: relative;
+    left: 397px;
+    top: 100px;
+}
+.scroll-seven p {
+    width: 490px;
+    height: 48px;
+    color: #61646B;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    left: 475px;
+    top: 120px;
+}
+input {
+    padding: 0.2em;
+    border: 2px solid #61646B;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+    display: block;
+    position: relative;
+    left: 350px;
+    top: 160px;
+    width: 740px;
+    height: 73px;
+    border-radius: 50px;
+}
+button {
+    width: 166px;
+    height: 65px;
+    border-radius: 50px;
+    background: #3E3FD8;
+    border: none;
+    color: #FFF;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    position: relative;
+    top: 91px;
+    left: 920px;
+}
+::placeholder {
+    color: #61646B;
+    font-size: 24px;
+    position:relative;
+    left: 20px;
+}

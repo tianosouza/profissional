@@ -23,17 +23,17 @@
 }
 .scroll-five-cards {
     display: flex;
-    align-items: center;
     position: relative;
-    left: 140px;
-    top: 284px;    
+    left: 130px;
+    top: 284px; 
+    gap: 20px;
 }
 .avatar {
     width: 360px;
     height: 204px;
     border-radius: 40px;
     background: #FFF;
-    box-shadow: 4px 4px 25px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 4px 4px 25px 0px rgba(0, 0, 0, 0.6);
     display: flex;
 }
 .avatar-dif {
@@ -42,10 +42,37 @@
 .avatar img {
     width: 70px;
     height: 70px;
+    position: relative;
+    left: 20px;
+    top: 31px;   
 }
 .avatar h4 {
-    font-size: 24px;
+    width: 160px;
+    height: 35px;
+    font-size: 23px;
     font-weight: 400;
     color: var(--text-primary, #2E323B);
-    
+    position: relative;
+    left: 35px;
+    top: 40px;
+}
+.avatar h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--dark-primary, #61646B);
+    position: relative;
+    top: 75px;
+    left: -123px;
+    width: 137px;
+    height: 26px;   
+}
+.five-cards p{
+    width: 320px;
+    height: 43px;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    left: 25px;
+    top: -90px;
+    color: var(--dark-primary, #61646B);    
 }

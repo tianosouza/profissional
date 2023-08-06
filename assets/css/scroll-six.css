@@ -1,0 +1,91 @@
+.scroll-six {
+    width: 1440px;
+    height: 791px;
+}
+.scroll-six h1 {
+    width: 269px;
+    height: 69px;
+    color: var(--text-primary, #2E323B);
+    font-size: 48px;
+    font-weight: 700;
+    position: relative;
+    top: 100px;
+    left: 565px;
+}
+.scroll-six h6 {
+    width: 490px;
+    height: 48px;
+    color: var(--dark-primary, #61646B);
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    text-align: center;
+    top: 125px;
+    left: 455px;
+}
+.cards-scroll-six {
+    display: flex;
+    position: relative;
+    left: 180px;
+    top: 210px;
+    gap: 20px;
+}
+.card-six {
+    width: 360px;
+    height: 414px;
+    border-radius: 20px;
+    border: 2px solid var(--button-primary, #3E3FD8);
+    background: var(--white-primary, #FFF);
+    box-shadow: 4px 4px 50px 0px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-six img {
+    position: relative;
+    top: 20px;
+}
+.infos-card-six {
+    position: relative;
+    gap: 140px;
+    left: -10px;
+}
+.persona-six {
+    display: flex;
+    position: relative;
+    left: 15px;
+    top: 22px;
+}
+.persona-six p {
+    color: var(--dark-primary, #61646B);
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    top: 25px;
+    left: 8px;
+}
+.calendar {
+    display: flex;
+    position: relative;
+    left: 180px;
+    top: -5px;
+}
+.calendar p {
+    color: var(--dark-primary, #61646B);
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    top: 25px;
+    left: 8px;
+}
+.card-six h6 {
+    width: 320px;
+    height: 74px;
+    color: var(--text-primary, #2E323B);
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    position: sticky;
+    margin-top: 25px;
+    margin-left: 20px;
+}
