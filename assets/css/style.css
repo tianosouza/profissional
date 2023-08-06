@@ -1,11 +1,4 @@
-@import url(./assets/css/reset.css);
-@import url(./assets/css/scroll-two.css);
-@import url(./assets/css/scroll-three.css);
-@import url(./assets/css/scroll-four.css);
-@import url(./assets/css/scroll-five.css);
-@import url(./assets/css/scroll-six.css);
-@import url(./assets/css/scroll-seven.css);
-@import url(./assets/css/scroll-end.css);
+
 :root {
     --primary-color: #61646B;
     --text-primary: #2E323B;
